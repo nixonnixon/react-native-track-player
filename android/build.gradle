@@ -64,32 +64,32 @@ dependencies {
     compile 'com.facebook.react:react-native:+'
 
     // ExoPlayer Core
-    if(exoplayer) {
-        compile 'com.google.android.exoplayer:exoplayer-core:r2.4.3'
-    } else {
-        provided 'com.google.android.exoplayer:exoplayer-core:r2.4.3'
-    }
+    // if(exoplayer) {
+    //     compile 'com.google.android.exoplayer:exoplayer-core:2.7.3'
+    // } else {
+    //     api 'com.google.android.exoplayer:exoplayer-core:2.7.3'
+    // }
 
-    // ExoPlayer DASH
-    if(dash) {
-        compile 'com.google.android.exoplayer:exoplayer-dash:r2.4.3'
-    } else {
-        provided 'com.google.android.exoplayer:exoplayer-dash:r2.4.3'
-    }
+    // // ExoPlayer DASH
+    // if(dash) {
+    //     compile 'com.google.android.exoplayer:exoplayer-dash:2.7.3'
+    // } else {
+    //     provided 'com.google.android.exoplayer:exoplayer-dash:2.7.3'
+    // }
 
-    // ExoPlayer HLS
-    if(hls) {
-        compile 'com.google.android.exoplayer:exoplayer-hls:r2.4.3'
-    } else {
-        provided 'com.google.android.exoplayer:exoplayer-hls:r2.4.3'
-    }
+    // // ExoPlayer HLS
+    // if(hls) {
+    //     compile 'com.google.android.exoplayer:exoplayer-hls:2.7.3'
+    // } else {
+    //     provided 'com.google.android.exoplayer:exoplayer-hls:2.7.3'
+    // }
 
-    // ExoPlayer SmoothStreaming
-    if(smoothstreaming) {
-        compile 'com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.3'
-    } else {
-        provided 'com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.3'
-    }
+    // // ExoPlayer SmoothStreaming
+    // if(smoothstreaming) {
+    //     compile 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.3'
+    // } else {
+    //     provided 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.3'
+    // }
 
     // Caching (for the default Android player)
     if(cache && !exoplayer) {

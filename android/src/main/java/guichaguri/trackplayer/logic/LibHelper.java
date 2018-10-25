@@ -9,10 +9,7 @@ public class LibHelper {
     private static Boolean PROXY_CACHE = null;
 
     public static boolean isExoPlayerAvailable() {
-        if(EXOPLAYER == null) {
-            EXOPLAYER = isAvailable("com.google.android.exoplayer2.SimpleExoPlayer");
-        }
-        return EXOPLAYER;
+        return false;
     }
 
     public static boolean isProxyCacheAvailable() {
